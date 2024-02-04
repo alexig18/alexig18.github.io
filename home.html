@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Metadata for the page -->
+<head>
+  <meta charset="UTF-8">
+  <!-- Sizing adjusts to be the same scaling across devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tab title in browser -->
+  <title>Alexi Garbuz</title>
+  <!-- Link our CSS stylesheet to the HTML -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="ux-ui.html">UX/UI Projects</a></li>
+        <li><a href="engineering.html">Engineering Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <!-- Lines of hamburger menu-->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="ux-ui.html" onclick="toggleMenu()">UX/UI Projects</a></li>
+        <li><a href="engineering.html" onclick="toggleMenu()">Engineering Projects</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./images/profile-pic.png" alt="Alexi Garbuz profile picture">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Alexi Garbuz</h1>
+      <p class="section__text__p2">Engineering Physics Student</p>
+      <div class="btn-container">
+      <!-- Send to contact section-->
+      <button class="btn btn-color-1" onclick="location.href='#contact'">
+        Contact Info
+      </button>
+      </div>
+      <div id="socials-container">
+        <img src="./images/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/alexi-garbuz-3950971a8/'">
+        <img src="./images/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/alexig18'">
+      </div>
+    </div>
+    <img src="./images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#about'">
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./images/about-pic.png" alt="Profile picture" class="about-pic">
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./images/experience.png" alt="Experience icon" class="icon">
+            <h3>Experience</h3>
+            <p>2 Software Development Co-ops</p>
+            <p>1 Product Management Co-op</p>
+          </div>
+          <div class="details-container">
+            <img src="./images/education.png" alt="Education icon" class="icon">
+            <h3>Education</h3>
+            <p>Bachelor of Applied Science <br>Engineering Physics</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, totam! Vel corporis, quae provident impedit pariatur explicabo incidunt iste est reiciendis voluptates officiis autem, perferendis dignissimos voluptatem blanditiis sit non ullam, culpa rerum? Optio, voluptatibus? Ea quos tenetur nulla porro ex vitae! Accusantium architecto, iure fuga unde similique doloremque voluptas.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container pointer" onclick="location.href='ux-ui.html'">
+          <div class="article-container">
+            <img src="./images/ux-ui.png" alt="UX/UI project" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">UX/UI Projects</h2>
+        </div>
+        <div class="details-container color-container pointer" onclick="location.href='engineering.html'">
+          <div class="article-container">
+            <img src="./images/engineering.png" alt="Engineering project" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Engineering Projects</h2>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'">
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./images/email.png" alt="Email icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:alexigarbuz@gmail.com">alexigarbuz@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./images/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+        <p><a href="https://www.linkedin.com/in/alexi-garbuz-3950971a8/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#top">Back To Top</a></li>
+          <li><a href="ux-ui.html">UX/UI Projects</a></li>
+          <li><a href="engineering.html">Engineering Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Alexi Garbuz. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
