@@ -102,7 +102,7 @@
     }
 }
 
-/* Show 1 projects in a row */
+/* Show 1 project in a row */
 @media screen and (max-width: 600px) {
     .project-big-container {
         grid-template-columns: 1fr;

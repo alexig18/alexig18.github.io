@@ -546,14 +546,24 @@ footer p {
 .project-text-container {
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+    text-align: justify;
 }
 
 .project-details-img {
     object-fit: cover;
     height: 50%;
-    width: 50%;
+    width: 80%;
     cursor: default;
     display: block;
     margin: auto;
+    padding: 1rem;
+}
+
+/* In development */
+
+.development {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(85, 85, 85);
 }
 

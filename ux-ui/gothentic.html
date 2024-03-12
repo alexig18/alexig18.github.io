@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Metadata for the page -->
+<head>
+  <meta charset="UTF-8">
+  <!-- Sizing adjusts to be the same scaling across devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tab title in browser -->
+  <title>Alexi Garbuz</title>
+  <!-- Link our CSS stylesheet to the HTML -->
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../ux-ui.html">UX/UI Projects</a></li>
+        <li><a href="../engineering.html">Engineering Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <!-- Lines of hamburger menu-->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="../home.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="../ux-ui.html" onclick="toggleMenu()">UX/UI Projects</a></li>
+        <li><a href="../engineering.html" onclick="toggleMenu()">Engineering Projects</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="project-details">
+    <h1 class="project-details-title">
+       Go'thentic - A Website for Authentic Travel Advice
+    </h1>
+    <p class="project-text-container">
+      For this group project, our team created a website aimed at helping travellers craft an authentic travel experience.
+      Our product focuses on creating a travellers' community where members can leave reviews of locations and specific activities, build and see recommended itineraries,
+      and view culture tips for different destinations.
+      <br>
+      <br>
+      Below, the main features of our website are shown through the high fidelity wireframes. Not shown are the prototype capabilities, which we created using Figma.
+      We also performed <b>user validation tests</b> with our prototype to quantitatively and qualitatively determine the effectiveness of our design and make improvements based on feedback and pain points.    
+    </p>
+    <img src="../images/gothentic/wireframes_new.png" alt="Wireframes" class="project-details-img">
+    <p>
+      Below is a lean canvas for the project, for which we identified the problem, solution, unique value proposition, and customer segment.
+    </p>
+    <img src="../images/gothentic/leancanvas.png" alt="Lean Canvas" class="project-details-img">
+    <p>
+      We also created a User Story Map with a list of goals, activites, and tasks for the MVP and non-MVP products.
+    </p>
+    <img src="../images/gothentic/goals.png" alt="Goals" class="project-details-img">
+</div>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#top">Back To Top</a></li>
+          <li><a href="../ux-ui.html">UX/UI Projects</a></li>
+          <li><a href="../engineering.html">Engineering Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Alexi Garbuz. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

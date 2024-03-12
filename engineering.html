@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Metadata for the page -->
+<head>
+  <meta charset="UTF-8">
+  <!-- Sizing adjusts to be the same scaling across devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tab title in browser -->
+  <title>Alexi Garbuz</title>
+  <!-- Link our CSS stylesheet to the HTML -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="ux-ui.html">UX/UI Projects</a></li>
+        <li><a href="engineering.html">Engineering Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <!-- Lines of hamburger menu-->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="ux-ui.html" onclick="toggleMenu()">UX/UI Projects</a></li>
+        <li><a href="engineering.html" onclick="toggleMenu()">Engineering Projects</a></li>
+      </div>
+    </div>
+  </nav>
+  <div id="projects-display">
+    <h1 class="development">In Development ...</h1>
+  </div>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#top">Back To Top</a></li>
+          <li><a href="ux-ui.html">UX/UI Projects</a></li>
+          <li><a href="engineering.html">Engineering Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Alexi Garbuz. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

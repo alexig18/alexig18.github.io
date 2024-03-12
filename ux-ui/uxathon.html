@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Metadata for the page -->
+<head>
+  <meta charset="UTF-8">
+  <!-- Sizing adjusts to be the same scaling across devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tab title in browser -->
+  <title>Alexi Garbuz</title>
+  <!-- Link our CSS stylesheet to the HTML -->
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../ux-ui.html">UX/UI Projects</a></li>
+        <li><a href="../engineering.html">Engineering Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <!-- Lines of hamburger menu-->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="../home.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="../ux-ui.html" onclick="toggleMenu()">UX/UI Projects</a></li>
+        <li><a href="../engineering.html" onclick="toggleMenu()">Engineering Projects</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="project-details">
+    <h1 class="project-details-title">
+        UXathon - GreenEats
+    </h1>
+    <p class="project-text-container">
+       This was a group project I worked on for a UX one-day hackathon. I came up with the idea for our project which was 
+       creating a consumer facing app where the user could input a recipe (via link, photo, manually), and the app would 
+       summarize the environmental impacts of the ingredients. This includes resources used and greenhouse gas emissions from producing the ingredient 
+       (for example, beef uses a lot of water), as well as the emissions associated with importing/accessing the ingredient. 
+       The app would then suggest alternative ingredients to use that have less of an impact/are more sustainable. 
+       We also added a feature to our app to be able to scan ingredients in the supermarket using a phone camera and have the app report back on the environmental impact of that product in real-time.
+        <br>
+        <br>
+        My main contributions were coming up with the <b>idea</b> for the app, creating <b>user personas</b>, mapping <b>user flows</b>, and designing <b>wireframes</b> as well as parts of the <b>final prototype</b>.
+    </p>    
+      <img src="../images/uxathon/user-flow.png" alt="User flow" class="project-details-img">
+    <img src="../images/uxathon/wireframes.png" alt="Wireframes" class="project-details-img">
+    <p class="project-text-container">
+        From the final screen designs below, I worked on the <b>second</b> and <b>fourth</b> screens. The second screen allows users
+        to input their recipe, and the fourth screen shows a summarized list of the recipe ingredients and their environmental impact.
+    </p>
+    <img src="../images/uxathon/final-design.png" alt="Final Design" class="project-details-img">
+</div>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#top">Back To Top</a></li>
+          <li><a href="../ux-ui.html">UX/UI Projects</a></li>
+          <li><a href="../engineering.html">Engineering Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Alexi Garbuz. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

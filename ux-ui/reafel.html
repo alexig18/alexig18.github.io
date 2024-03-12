@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Metadata for the page -->
+<head>
+  <meta charset="UTF-8">
+  <!-- Sizing adjusts to be the same scaling across devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tab title in browser -->
+  <title>Alexi Garbuz</title>
+  <!-- Link our CSS stylesheet to the HTML -->
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../ux-ui.html">UX/UI Projects</a></li>
+        <li><a href="../engineering.html">Engineering Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Alexi Garbuz</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <!-- Lines of hamburger menu-->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="../home.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="../ux-ui.html" onclick="toggleMenu()">UX/UI Projects</a></li>
+        <li><a href="../engineering.html" onclick="toggleMenu()">Engineering Projects</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="project-details">
+    <h1 class="project-details-title">
+       REAFEL - Heart Arrhythmia Tracking
+    </h1>
+    <p class="project-text-container">
+      A group project where we designed a website and mobile app for tracking heart arrhythmias for patients wearing ECGs. Our mobile app provides patients with
+      the ablitity to enter activities/symptoms that may correlate with the ECG data. That information is sent to their doctor who can view it through our website,
+      and can then record result summaries through the site which become available to the user through their mobile app. Furthermore, our app allows users to easily share the data with those they choose.
+      For this project we created a <b>user journey map</b>, <b>lean canvas</b>, <b>wireframes</b>, and a <b>prototype</b>. We performed
+      <b>user testing</b> of two different versions of our prototype. I will focus on the prototype that I worked on below.
+      <br>
+      <br>
+      Below, the main features of our patient facing app and doctor facing website are shown through the high fidelity wireframes. 
+    </p>
+    <img src="../images/reafel/wireframes_mobile.png" alt="Wireframes" class="project-details-img">
+    <img src="../images/reafel/wireframes_website.png" alt="Wireframes" class="project-details-img">
+    <p>
+      Below is a lean canvas for the project, for which we identified the problem, solution, unique value proposition, and customer segment.
+    </p>
+    <img src="../images/reafel/leancanvas.png" alt="Lean Canvas" class="project-details-img">
+    <p>
+      We also created a User Story Map with a list of goals, activites, and tasks.
+    </p>
+    <img src="../images/reafel/goals.png" alt="Goals" class="project-details-img">
+</div>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#top">Back To Top</a></li>
+          <li><a href="../ux-ui.html">UX/UI Projects</a></li>
+          <li><a href="../engineering.html">Engineering Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Alexi Garbuz. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
